@@ -1,0 +1,9 @@
+Bước 1: Xây dựng giao diện.
+Bước 2: Phân tích:
+FormThongTin.jsx: Lấy dữ liệu người dùng nhập vào ô input
+ChoNgoi.jsx: Chọn ghế
+ThongTinChoNgoi: hiển thị thông tin
+
+Khi user click start --> check --> nếu true thì cho phép chọn chỗ ngồi. Nếu false hiện thông báo.
+Khi user click chọn ghế --> thay đổi màu ô checked. 
+Khi user click confirm --> check user đã chọn đủ số ghế đã chọn ở ô input --> true: render thông tin --> false: thông báo.

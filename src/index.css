@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./public/bgmovie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content {
+  width: 50%;
+  margin: 20px auto 0;
+  background-color: rgba(128, 128, 128, 0.34);
+}
+.form-info .seat {
+  list-style: none;
+}
+.form-info .seat .seat-box {
+  /* content: ''; */
+  /* width: fit-content;
+  height: fit-content; */
+  display: inline-block;
+  margin-right: 10px;
+}
+.form-info .seat .seat-red::before {
+  content: '';
+  background: red;
+  width: 10px;
+  height: 100%;
+}
+.hangGhe ul {
+  list-style: none;
+}
+.hangGhe ul li {
+  /* margin-right: 15px; */
+  display: inline-block;
+}
+
+.hangGhe li.choNgoi::before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+.hangGhe li.chon::before {
+  content: '';
+  background: green;
+}
+.hangGhe li.duocDat::before {
+  content: '';
+  background: red;
+}
+.hangGhe li.trong::before {
+  content: '';
+  background: white;
+}
+input[type='checkbox'] {
+  width: 13px;
+  margin: 8px 25px 8px 20px;
+  /* margin-right: 25px;
+  margin-left: 15px; */
+  cursor: pointer;
+}
+.table-seat {
+  width: 100%;
+}
+input[type='checkbox']::before {
+  content: '';
+  display: inline-block;
+  text-align: center;
+  width: 25px;
+  height: 20px;
+  border: 3px solid orange;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+input[type='checkbox']:checked::before {
+  background-color: green;
+}
+.loiDi {
+  width: 40px;
+}
+
+.loiDi2 {
+  height: 40px;
+}
+.screen {
+  background-color: orange;
+  height: 80px;
+  text-align: center;
+  margin-top: 30px;
+  padding: 24px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+.title {
+  width: 170px;
+  background-color: #ffffff;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.showThongTin {
+  width: 170px;
+  height: 100px;
+  background-color: #ffffff;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.trong {
+  height: 5px;
+}
+
+.trongTD {
+  width: 5px;
+}
